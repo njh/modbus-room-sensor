@@ -1,0 +1,19 @@
+# KiCAD temporary and backup files
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+*.kicad_prl
+*.sch-bak
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+~*.lck
+_autosave-*
+\#auto_saved_files\#
+
+# KiCAD search path cache (can be regenerated)
+sym-lib-table.cache
+fp-lib-table.cache
