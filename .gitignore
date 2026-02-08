@@ -17,3 +17,5 @@ _autosave-*
 # KiCAD search path cache (can be regenerated)
 sym-lib-table.cache
 fp-lib-table.cache
+
+jlcpcb
