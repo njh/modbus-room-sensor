@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Mikrobus") (type "KiCad") (uri "${KIPRJMOD}/Mikrobus.kicad_sym") (options "") (descr "Mikrobus add-on board headers"))
+)
