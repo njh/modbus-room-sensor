@@ -13,6 +13,7 @@ fp-info-cache
 ~*.lck
 _autosave-*
 \#auto_saved_files\#
+.history
 
 # KiCAD search path cache (can be regenerated)
 sym-lib-table.cache
