@@ -2742,7 +2742,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:SMAJ18CA"
+		(symbol "Diode:SMAJ24CA"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2765,7 +2765,7 @@
 					)
 				)
 			)
-			(property "Value" "SMAJ18CA"
+			(property "Value" "SMAJ24CA"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2797,7 +2797,7 @@
 					)
 				)
 			)
-			(property "Description" "400W bidirectional Transient Voltage Suppressor, 18.0Vr, SMA(DO-214AC)"
+			(property "Description" "400W bidirectional Transient Voltage Suppressor, 24.0Vr, SMA(DO-214AC)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2830,7 +2830,7 @@
 					)
 				)
 			)
-			(symbol "SMAJ18CA_0_1"
+			(symbol "SMAJ24CA_0_1"
 				(polyline
 					(pts
 						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
@@ -2880,7 +2880,7 @@
 					)
 				)
 			)
-			(symbol "SMAJ18CA_1_1"
+			(symbol "SMAJ24CA_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -5631,7 +5631,7 @@
 		)
 		(uuid "4c13c168-ee9c-4442-8750-6f2da7391af2")
 	)
-	(text "5V - 15V\nInput Voltage\n"
+	(text "5V - 24V\nInput Voltage\n"
 		(exclude_from_sim no)
 		(at 62.992 31.496 0)
 		(effects
@@ -9211,7 +9211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26bf562c-0d1f-49d8-98e7-fa1946c68896")
-		(property "Reference" "L2"
+		(property "Reference" "L1"
 			(at 190.5 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9231,7 +9231,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1812_4532Metric"
+		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA4030S"
 			(at 190.5 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -9264,7 +9264,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C394127"
+		(property "LCSC" "C57269"
 			(at 190.5 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -9284,7 +9284,7 @@
 		(instances
 			(project "modbus-th-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
-					(reference "L2")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -9412,7 +9412,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
 			(at 86.36 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -9829,7 +9829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 212.09 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11737,99 +11737,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SMAJ18CA")
-		(at 86.36 40.64 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "906bf786-fc91-4ad4-b9ff-084f76bd08e0")
-		(property "Reference" "D1"
-			(at 88.9 39.3699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SMAJ18CA"
-			(at 88.9 41.9099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 91.44 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 86.36 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "400W bidirectional Transient Voltage Suppressor, 18.0Vr, SMA(DO-214AC)"
-			(at 86.36 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C151240"
-			(at 86.36 40.64 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0de5b8f4-2c54-490f-ae09-776bbd1e6012")
-		)
-		(pin "1"
-			(uuid "561fe70d-2a4c-45aa-b13c-a90fe67db6e4")
-		)
-		(instances
-			(project "modbus-th-sensor"
-				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 57.15 151.13 0)
 		(unit 1)
@@ -12032,7 +11939,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 200.66 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -12446,7 +12353,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "22uF"
 			(at 123.19 42.6338 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13730,6 +13637,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SMAJ24CA")
+		(at 86.36 40.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5843660-00b1-401e-a42f-aec25deda5e0")
+		(property "Reference" "D1"
+			(at 88.9 39.3699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMAJ24CA"
+			(at 88.9 41.9099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 91.44 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 86.36 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "400W bidirectional Transient Voltage Suppressor, 24.0Vr, SMA(DO-214AC)"
+			(at 86.36 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C148223"
+			(at 86.36 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "55e3776b-5977-49e5-ab6d-e346e9d0a7bb")
+		)
+		(pin "1"
+			(uuid "9a5b9810-f62d-4ce0-a9f0-b9d96283c3f2")
+		)
+		(instances
+			(project "modbus-th-sensor"
+				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 248.92 139.7 270)
 		(unit 1)
@@ -13923,7 +13923,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "470K"
 			(at 105.41 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13967,7 +13967,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25803"
+		(property "LCSC" "C23178"
 			(at 102.87 44.45 0)
 			(hide yes)
 			(show_name no)
