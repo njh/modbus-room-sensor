@@ -5412,6 +5412,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 142.24) (xy 256.54 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17371b3c-bffa-4902-99b6-33eec8376c40")
+	)
+	(wire
+		(pts
 			(xy 162.56 97.79) (xy 162.56 99.06)
 		)
 		(stroke
@@ -5439,16 +5449,6 @@
 			(type default)
 		)
 		(uuid "1c4f6d20-f4b9-4a93-b708-12ca7d62c8f4")
-	)
-	(wire
-		(pts
-			(xy 248.92 139.7) (xy 256.54 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c6f2507-e5d1-4c4d-993d-36cfe9ef9fe9")
 	)
 	(wire
 		(pts
@@ -5912,6 +5912,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 144.78) (xy 256.54 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "758c9010-7a11-4e5b-899f-2fa2776c2fd2")
+	)
+	(wire
+		(pts
 			(xy 34.29 147.32) (xy 38.1 147.32)
 		)
 		(stroke
@@ -5989,16 +5999,6 @@
 			(type default)
 		)
 		(uuid "8057e29f-da96-42bc-99ac-ef0473725e63")
-	)
-	(wire
-		(pts
-			(xy 248.92 142.24) (xy 256.54 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80e75586-812c-42e9-9e5a-2f1c9d4a3136")
 	)
 	(wire
 		(pts
@@ -6129,6 +6129,16 @@
 			(type default)
 		)
 		(uuid "8f6e5a1d-6ab4-4228-9597-933a4601488c")
+	)
+	(wire
+		(pts
+			(xy 251.46 139.7) (xy 256.54 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92d773c1-83da-412d-97bb-4caac6667a02")
 	)
 	(wire
 		(pts
@@ -6269,16 +6279,6 @@
 			(type default)
 		)
 		(uuid "a077b909-e9e7-4dd5-b67a-6c9370bae5a8")
-	)
-	(wire
-		(pts
-			(xy 248.92 147.32) (xy 256.54 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0bc9290-69e5-4381-a1e3-fe20777e87d5")
 	)
 	(wire
 		(pts
@@ -6622,16 +6622,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 144.78) (xy 256.54 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d26bc613-fd84-4857-9abd-ccc48207bbbb")
-	)
-	(wire
-		(pts
 			(xy 200.66 31.75) (xy 200.66 40.64)
 		)
 		(stroke
@@ -6769,6 +6759,16 @@
 			(type default)
 		)
 		(uuid "e7ba6b8d-bb7c-4cc4-8e0b-1363c32616dc")
+	)
+	(wire
+		(pts
+			(xy 251.46 147.32) (xy 256.54 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed3ad136-369f-4ce2-ad91-f532e1d90856")
 	)
 	(wire
 		(pts
@@ -7352,7 +7352,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 248.92 147.32 180)
+		(at 251.46 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7362,7 +7362,7 @@
 		)
 		(uuid "9f26db9c-71ab-45cd-afec-10c4d4b27db8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.7602 147.32 0)
+			(at 246.3002 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7544,7 +7544,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 248.92 144.78 180)
+		(at 251.46 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7554,7 +7554,7 @@
 		)
 		(uuid "c7701de7-cad5-428b-bcaa-aae3c13cdab2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.7602 144.78 0)
+			(at 246.3002 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9528,7 +9528,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 248.92 142.24 90)
+		(at 251.46 144.78 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9538,7 +9538,7 @@
 		(dnp no)
 		(uuid "54970ac0-5b93-4b9e-a0cc-c47a784f765c")
 		(property "Reference" "#PWR028"
-			(at 252.73 142.24 90)
+			(at 255.27 144.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9549,7 +9549,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 245.11 142.24 90)
+			(at 247.65 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9560,7 +9560,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 142.24 0)
+			(at 251.46 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9571,7 +9571,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 142.24 0)
+			(at 251.46 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9582,7 +9582,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 248.92 142.24 0)
+			(at 251.46 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10715,9 +10715,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "a9544004-52ea-4ce4-b6ef-af767380ad72")
 		(property "Reference" "J5"
@@ -10731,7 +10731,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Qwiic"
+		(property "Value" "I2C"
 			(at 264.16 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10742,7 +10742,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 261.62 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -10753,7 +10753,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+		(property "Datasheet" "https://www.jst-mfg.com/product/index.php?series=199"
 			(at 261.62 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -10764,18 +10764,7 @@
 				)
 			)
 		)
-		(property "Description" "JST SH 1.0mm 4-pin connector (SparkFun Qwiic)"
-			(at 261.62 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C160404"
+		(property "Description" "JST PH 2.0mm 4-pin connector (Adafruit STEMMA)"
 			(at 261.62 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -12447,7 +12436,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 248.92 139.7 270)
+		(at 251.46 147.32 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12457,7 +12446,7 @@
 		(dnp no)
 		(uuid "d937445c-bab4-438b-8bb0-071150b9164d")
 		(property "Reference" "#PWR027"
-			(at 242.57 139.7 270)
+			(at 245.11 147.32 270)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12468,7 +12457,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 245.11 139.7 90)
+			(at 247.65 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12479,7 +12468,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 139.7 0)
+			(at 251.46 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12490,7 +12479,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 139.7 0)
+			(at 251.46 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12501,7 +12490,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 248.92 139.7 0)
+			(at 251.46 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
