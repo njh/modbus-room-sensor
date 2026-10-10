@@ -10528,6 +10528,7 @@
 	(symbol
 		(lib_id "Connector:Conn_01x05_Socket")
 		(at 218.44 143.51 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
