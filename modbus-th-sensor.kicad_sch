@@ -11773,7 +11773,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "47uF"
 			(at 123.19 42.6338 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11784,7 +11784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.8"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 120.65 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -11817,7 +11817,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C336302"
+		(property "LCSC" ""
 			(at 120.65 41.91 0)
 			(hide yes)
 			(show_name no)
