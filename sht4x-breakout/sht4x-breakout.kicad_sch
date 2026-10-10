@@ -1840,6 +1840,7 @@
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
 		(at 220.98 87.63 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
