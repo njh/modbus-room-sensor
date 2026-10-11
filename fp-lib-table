@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Kefa HT396") (type "KiCad") (uri "${KIPRJMOD}/footprints/Connector_Kefa_HT396.pretty") (options "") (descr ""))
+)
