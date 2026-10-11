@@ -7006,6 +7006,26 @@
 		)
 		(uuid "ffda1b28-bf39-45bd-bbcf-0e7e0ae51806")
 	)
+	(label "VIN_PROT"
+		(at 106.68 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3171164e-146f-4ea1-bd56-10e0f05150bb")
+	)
+	(label "VIN_FUSED"
+		(at 88.9 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c19b0d96-1046-4753-a368-2b9ee9d305d7")
+	)
 	(global_label "TXO"
 		(shape input)
 		(at 121.92 143.51 0)
@@ -7318,7 +7338,7 @@
 			)
 		)
 	)
-	(global_label "TXEN"
+	(global_label "RXEN"
 		(shape input)
 		(at 121.92 148.59 0)
 		(fields_autoplaced yes)
@@ -7330,7 +7350,7 @@
 		)
 		(uuid "67071bb7-2c23-4a3f-a2ae-9d17a917e6c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.937 148.59 0)
+			(at 128.1751 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7558,7 +7578,7 @@
 			)
 		)
 	)
-	(global_label "RXEN"
+	(global_label "TXEN"
 		(shape input)
 		(at 121.92 146.05 0)
 		(fields_autoplaced yes)
@@ -7570,7 +7590,7 @@
 		)
 		(uuid "ac982a44-2adb-4bfa-a288-d74ebdaf0a97")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.1751 146.05 0)
+			(at 127.937 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13546,26 +13566,6 @@
 				)
 			)
 		)
-	)
-	(label "VIN_FUSED"
-		(at 88.9 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c19b0d96-1046-4753-a368-2b9ee9d305d7")
-	)
-	(label "VIN_PROT"
-		(at 106.68 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3171164e-146f-4ea1-bd56-10e0f05150bb")
 	)
 	(sheet_instances
 		(path "/"
