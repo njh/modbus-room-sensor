@@ -545,7 +545,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -564,7 +563,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -778,7 +776,7 @@
         "uuid": "0ebab830-f561-40b5-8ce2-2e04f313e8a8"
       }
     ],
-    "used_designators": "R7,JP2,D4,J4-6,#PWR3,#PWR26",
+    "used_designators": "#PWR2-3,#PWR26,#PWR29,J4-7,D4,JP2,R7",
     "variants": []
   },
   "sheets": [
