@@ -144,7 +144,7 @@
 				)
 			)
 		)
-		(property "Value" "SHT4x"
+		(property "Value" "SHT41-AD1B-R2"
 			(at 0 1.7 180)
 			(layer "F.Fab")
 			(uuid "89fea232-b82e-41d1-86a0-fdefae25440a")
@@ -915,7 +915,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1x5 R/A header"
 			(at 0 12.54 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -963,7 +963,7 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.38 11.54)
-			(end 1.38 11.54)
+			(end 1.2 11.54)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -983,7 +983,7 @@
 		)
 		(fp_line
 			(start -1.38 1.27)
-			(end 1.38 1.27)
+			(end 1.2 1.27)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -992,8 +992,8 @@
 			(uuid "06bf2843-285f-4695-96c9-86ac8c06f8d3")
 		)
 		(fp_line
-			(start 1.38 1.27)
-			(end 1.38 11.54)
+			(start 1.2 1.27)
+			(end 1.2 11.54)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -1434,7 +1434,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "I2C 0x44"
+	(gr_text "AL141"
 		(at 109.5 107 0)
 		(layer "B.SilkS")
 		(uuid "542b83b1-cd63-4844-ba84-be9da5507654")

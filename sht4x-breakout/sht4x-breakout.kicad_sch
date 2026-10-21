@@ -1958,7 +1958,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "1x5 R/A header"
 			(at 220.98 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2348,25 +2348,25 @@
 		(dnp no)
 		(uuid "943e71a6-b8bd-4e68-8d29-aa60bd115a7c")
 		(property "Reference" "U1"
-			(at 132.334 77.216 0)
+			(at 139.7 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "SHT4x"
-			(at 132.08 79.756 0)
+		(property "Value" "SHT41-AD1B-R2"
+			(at 139.7 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Sensor_Humidity:Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad"
