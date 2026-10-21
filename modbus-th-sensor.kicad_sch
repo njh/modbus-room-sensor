@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "0ebab830-f561-40b5-8ce2-2e04f313e8a8")
 	(paper "A4")
+	(title_block
+		(title "Modbus Room Sensor")
+		(date "2026-10-21")
+		(rev "2")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x05_Socket"
 			(pin_names
