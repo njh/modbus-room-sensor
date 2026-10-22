@@ -517,7 +517,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "modbus-th-sensor.kicad_pro",
+    "filename": "modbus-room-sensor.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -771,8 +771,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "modbus-th-sensor.kicad_sch",
-        "name": "modbus-th-sensor",
+        "filename": "modbus-room-sensor.kicad_sch",
+        "name": "modbus-room-sensor",
         "uuid": "0ebab830-f561-40b5-8ce2-2e04f313e8a8"
       }
     ],
@@ -782,7 +782,7 @@
   "sheets": [
     [
       "0ebab830-f561-40b5-8ce2-2e04f313e8a8",
-      "modbus-th-sensor"
+      "modbus-room-sensor"
     ]
   ],
   "text_variables": {},

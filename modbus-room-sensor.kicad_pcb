@@ -93,7 +93,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_55555570)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000008_02002222)
@@ -197,7 +196,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/0e937e29-fa88-414c-ae46-ebf437dcfc51")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -345,7 +344,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/5daed5ad-c002-4459-88a5-b1528b65fca7")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -462,7 +461,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/2a7f9323-7d40-4416-b50d-98f05b4364c1")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -625,7 +624,7 @@
 		(property ki_fp_filters "D*SMA*")
 		(path "/d5843660-00b1-401e-a42f-aec25deda5e0")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -914,7 +913,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/cbca1ed1-6654-4170-aaaa-7aa8f2042210")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1062,7 +1061,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/436492d0-832c-4935-88e3-badbedefd129")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1179,7 +1178,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/eea4ae04-35a6-451f-9772-381c70e3851d")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1338,7 +1337,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/09896da9-b078-4c40-957c-eb1fd1f938b2")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1497,7 +1496,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a4b795fb-bfcc-4939-a32b-de16a34b22f7")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1669,7 +1668,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/bd9fea12-89eb-4d1a-9910-01996915d9e1")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1879,7 +1878,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/7045f825-4df6-431f-b97a-1a4eaef86957")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2027,7 +2026,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/86205d93-3919-4a03-ba13-46122d570089")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2144,7 +2143,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9b125d91-6750-40c7-86cf-62deef2809da")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2303,7 +2302,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b3d56c43-dc3e-4b0c-8a48-84a9ae535ca3")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2450,7 +2449,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a9544004-52ea-4ce4-b6ef-af767380ad72")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2936,7 +2935,7 @@
 		(property ki_fp_filters "Crystal*")
 		(path "/bbbb9d38-7f01-4741-b1f0-6932b087b6a3")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3107,7 +3106,7 @@
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/52d4f777-51eb-4f30-b348-d3b4a7b7e09d")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3442,7 +3441,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e8ff1d7d-3217-421a-8605-16f9752d643c")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3590,7 +3589,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/f41828dd-5232-4ae6-b01c-0092504bff0e")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3694,7 +3693,7 @@
 		(property ki_fp_filters "*polyfuse* *PTC*")
 		(path "/2f10d886-f96a-4f72-8e33-c21c59deaec2")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3875,7 +3874,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/b27e567b-26c5-473d-b13b-4bfd8b79eb2e")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5412,7 +5411,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/4c5cc5a2-67d8-4b48-9926-e5fff2aa1e28")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5701,7 +5700,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d3cbddeb-46fd-4764-b82d-e1ace9128935")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5860,7 +5859,7 @@
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm*")
 		(path "/7a4deec9-f502-417f-b0ba-4775f8cc21bd")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6789,7 +6788,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/db6813da-63b0-423e-b72d-796caeb10b4f")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6937,7 +6936,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a3e6de65-ef20-4d95-b5c4-eaf8c306fed9")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7741,7 +7740,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8335da7d-0493-4b83-a594-00504f9ebaca")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7900,7 +7899,7 @@
 		(property ki_fp_filters "TQFP*7x7mm*P0.8mm*")
 		(path "/eef0715b-a3cb-4939-a77a-064222919aed")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8626,7 +8625,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/eb42e655-bd92-49da-ba20-a1c51c911dd9")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8772,7 +8771,7 @@
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/b7ee3c49-1fc6-4da6-b8cd-08205debed34")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9014,7 +9013,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/89f66228-c393-433d-984f-ddbc601637a1")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9173,7 +9172,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/36c9d05c-afca-49c5-aacd-3f9d5128fb69")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9319,7 +9318,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/44a5ae46-9e23-4f32-bf3e-0d679fe20d3f")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9612,7 +9611,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/84df51cc-d236-44ee-89ed-b3248872f9ce")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9940,7 +9939,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/3c04fa97-0f55-46c3-a2a2-bc54c48cdf25")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10086,7 +10085,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/bb697cca-1db0-413f-aef2-3e225a0bee5d")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10372,7 +10371,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/26bf562c-0d1f-49d8-98e7-fa1946c68896")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10640,7 +10639,7 @@
 		(property ki_fp_filters "TSOT?23*")
 		(path "/c7ae61c0-7ca8-4d00-a2d9-b97950c25fc3")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11003,7 +11002,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/4abc02ba-6e08-4f96-b93c-7f023918007c")
 		(sheetname "/")
-		(sheetfile "modbus-th-sensor.kicad_sch")
+		(sheetfile "modbus-room-sensor.kicad_sch")
 		(units
 			(unit
 				(name "A")

@@ -8596,7 +8596,7 @@
 			(uuid "563cb062-7613-4b62-bd57-20473b9e69c7")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "#PWR020")
 					(unit 1)
@@ -8675,7 +8675,7 @@
 			(uuid "f8e0c88c-6571-4864-beca-a219a4b87f4c")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "#PWR029")
 					(unit 1)
@@ -8753,7 +8753,7 @@
 			(uuid "42958d3d-bd92-40bc-81a8-9116fc2af5fe")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "#PWR026")
 					(unit 1)
@@ -8846,7 +8846,7 @@
 			(uuid "75ff60b1-4867-4272-beab-65826de7f169")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "R3")
 					(unit 1)
@@ -8936,7 +8936,7 @@
 			(uuid "d8b1de8f-4aad-4ab8-9916-e11282cb7b73")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "R2")
 					(unit 1)
@@ -9014,7 +9014,7 @@
 			(uuid "6b196076-630e-4679-a16f-e6d96c59644e")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "#PWR09")
 					(unit 1)
@@ -9091,7 +9091,7 @@
 			(uuid "0d930e2e-b4eb-4ac4-8e6b-f6b3baa46393")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "#PWR016")
 					(unit 1)
@@ -9182,7 +9182,7 @@
 			(uuid "6949c88a-8871-466d-ae7f-7ffac46df91f")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "L1")
 					(unit 1)
@@ -9272,7 +9272,7 @@
 			(uuid "831758ff-72cd-42ca-9330-792a320dbaee")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "C13")
 					(unit 1)
@@ -9352,7 +9352,7 @@
 			(uuid "28bee0d6-7f88-4721-a22c-018b8c684bbf")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "F1")
 					(unit 1)
@@ -9430,7 +9430,7 @@
 			(uuid "afd9616b-0f08-4803-be89-9ad3d71e37c3")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "#PWR024")
 					(unit 1)
@@ -9521,7 +9521,7 @@
 			(uuid "f7daf33d-17b0-4947-8524-a292844bf234")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "C8")
 					(unit 1)
@@ -9599,7 +9599,7 @@
 			(uuid "75a9b3a7-7d01-4511-a68b-bf53a2306203")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "#PWR04")
 					(unit 1)
@@ -9691,7 +9691,7 @@
 			(uuid "dbd0688d-f819-4e4e-bcf4-793832bf50d9")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "C6")
 					(unit 1)
@@ -9768,7 +9768,7 @@
 			(uuid "c69f7faa-28c2-4101-98df-d24f3efb644b")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "#PWR012")
 					(unit 1)
@@ -9846,7 +9846,7 @@
 			)
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "H3")
 					(unit 1)
@@ -9938,7 +9938,7 @@
 			(uuid "ae186093-f3c3-475c-a506-6a5c7cf5dc1c")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "J3")
 					(unit 1)
@@ -10015,7 +10015,7 @@
 			(uuid "a73c58ca-7a12-4e35-94c5-8f7b2104cac5")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "#PWR019")
 					(unit 1)
@@ -10105,7 +10105,7 @@
 			(uuid "99d7c0b9-5e0b-48fc-9a92-d047eb44b396")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "C7")
 					(unit 1)
@@ -10183,7 +10183,7 @@
 			(uuid "69b9b44e-a265-4dc3-a322-3cfe448263b8")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "#PWR01")
 					(unit 1)
@@ -10262,7 +10262,7 @@
 			(uuid "25f6c209-227a-48ca-a4fe-1f86bc63b018")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "#FLG02")
 					(unit 1)
@@ -10352,7 +10352,7 @@
 			(uuid "0c39f1f6-c890-4ffd-9dc7-988b9da08de8")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "D2")
 					(unit 1)
@@ -10438,7 +10438,7 @@
 			(uuid "6385ea43-999e-41d3-bf54-115958cc03e1")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "J1")
 					(unit 1)
@@ -10517,7 +10517,7 @@
 			(uuid "372478b0-cb65-45d4-9a41-3da2d38e4db9")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "#PWR028")
 					(unit 1)
@@ -10595,7 +10595,7 @@
 			(uuid "3f46130e-368b-49aa-8bb5-ccc3e6068e3d")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "#PWR025")
 					(unit 1)
@@ -10673,7 +10673,7 @@
 			)
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "H1")
 					(unit 1)
@@ -10766,7 +10766,7 @@
 			(uuid "37cb7274-6fc1-4f32-a41e-045c8f2a2ff3")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "C3")
 					(unit 1)
@@ -10877,7 +10877,7 @@
 			(uuid "1febab16-bd18-4048-a728-ba15876dbce0")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "U3")
 					(unit 1)
@@ -10955,7 +10955,7 @@
 			(uuid "8fef4624-f036-4b6b-9c51-7ab52d970cec")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "#PWR08")
 					(unit 1)
@@ -11047,7 +11047,7 @@
 			(uuid "c4991e6b-6f05-48ec-90e5-8e4e889cd6df")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "C14")
 					(unit 1)
@@ -11145,7 +11145,7 @@
 			(uuid "fdc4b65b-2972-4003-855b-886981bc1565")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "J6")
 					(unit 1)
@@ -11223,7 +11223,7 @@
 			(uuid "43c7a7ed-2b5a-417f-ae5b-41fc49bcf49f")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "#PWR013")
 					(unit 1)
@@ -11301,7 +11301,7 @@
 			)
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "H4")
 					(unit 1)
@@ -11393,7 +11393,7 @@
 			(uuid "6196d0b9-8b6e-4b48-9179-27cd1d975547")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "R6")
 					(unit 1)
@@ -11472,7 +11472,7 @@
 			(uuid "88ec54f8-ff61-4c42-8cda-90d0fa2155d6")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "#FLG04")
 					(unit 1)
@@ -11549,7 +11549,7 @@
 			(uuid "720a5c17-a9b1-484d-b1e1-0d778b9314ee")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "#PWR014")
 					(unit 1)
@@ -11627,7 +11627,7 @@
 			(uuid "43f7796b-03ec-455e-8b4e-2b6a3a7da3bc")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "#PWR015")
 					(unit 1)
@@ -11719,7 +11719,7 @@
 			(uuid "5c32e01d-1e48-4442-bc8e-2eaac7a65d42")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "R4")
 					(unit 1)
@@ -11810,7 +11810,7 @@
 			(uuid "9db19f25-836e-4ab9-af5e-bd01f961b2c5")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "J4")
 					(unit 1)
@@ -11903,7 +11903,7 @@
 			(uuid "a003a65e-70f2-48b5-967e-c4b64a9b953a")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "C5")
 					(unit 1)
@@ -11991,7 +11991,7 @@
 			(uuid "4a54cdac-f7bb-47e3-8dcd-6747f75454d7")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "J5")
 					(unit 1)
@@ -12069,7 +12069,7 @@
 			(uuid "f9f27057-e4a6-424e-8803-2878ba5a326f")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "#PWR011")
 					(unit 1)
@@ -12147,7 +12147,7 @@
 			(uuid "117a3310-0fe0-4e09-9934-0e39b6c46dd3")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "#PWR021")
 					(unit 1)
@@ -12226,7 +12226,7 @@
 			(uuid "c5eee218-11e9-4f9f-9383-2ebaebeeb563")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "#PWR07")
 					(unit 1)
@@ -12319,7 +12319,7 @@
 			(uuid "b0a4dde2-cea9-425b-846a-8310590e86c8")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "C1")
 					(unit 1)
@@ -12412,7 +12412,7 @@
 			(uuid "6a4eed34-bce3-48de-83b4-3679263bab74")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "C10")
 					(unit 1)
@@ -12490,7 +12490,7 @@
 			(uuid "bd6654b7-0523-47af-85cf-59b8bfb7c79a")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "#FLG01")
 					(unit 1)
@@ -12572,7 +12572,7 @@
 			(uuid "e5ba8e9c-68ca-4f40-af44-5a4432bfac38")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "JP1")
 					(unit 1)
@@ -12665,7 +12665,7 @@
 			(uuid "2763fbb4-d03a-41da-a950-50076f54dc11")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "J2")
 					(unit 1)
@@ -12743,7 +12743,7 @@
 			(uuid "f5c74011-1160-472c-941f-8f917a3de7b4")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "#PWR03")
 					(unit 1)
@@ -12836,7 +12836,7 @@
 			(uuid "7f8de4c8-c14e-40af-846c-ffe027f60183")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "Y1")
 					(unit 1)
@@ -12939,7 +12939,7 @@
 			(uuid "7f028245-e74c-4f12-aab6-93188201b2fa")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "D3")
 					(unit 1)
@@ -13016,7 +13016,7 @@
 			(uuid "0b1ef6d8-8dbe-44f1-831f-48f20511414e")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "#PWR06")
 					(unit 1)
@@ -13119,7 +13119,7 @@
 			(uuid "54b2c01a-a04b-4b1c-b434-c843622801f2")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "U5")
 					(unit 1)
@@ -13198,7 +13198,7 @@
 			(uuid "87ec8812-9556-4a6f-892b-8c7600c0d7c7")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "#FLG03")
 					(unit 1)
@@ -13275,7 +13275,7 @@
 			(uuid "aa06a30d-6070-4f08-acf1-cd569106a6ef")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "#PWR017")
 					(unit 1)
@@ -13367,7 +13367,7 @@
 			(uuid "56d8ef3e-98bf-4d68-b7b6-93a0b38c229d")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "C12")
 					(unit 1)
@@ -13445,7 +13445,7 @@
 			(uuid "520f0dba-4286-49e2-8208-a28d355ab50d")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "#PWR018")
 					(unit 1)
@@ -13537,7 +13537,7 @@
 			(uuid "6646204c-ed34-479f-ac07-4e91d6e654a5")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "C11")
 					(unit 1)
@@ -13630,7 +13630,7 @@
 			(uuid "9a5b9810-f62d-4ce0-a9f0-b9d96283c3f2")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "D1")
 					(unit 1)
@@ -13709,7 +13709,7 @@
 			(uuid "48ba584f-1bac-401f-a180-fd942751d7a9")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "#PWR027")
 					(unit 1)
@@ -13802,7 +13802,7 @@
 			(uuid "5dd0f50a-32a3-42c1-8c12-503bd7498c2c")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "C4")
 					(unit 1)
@@ -13894,7 +13894,7 @@
 			(uuid "5f2e61a1-ee05-4476-bff9-7569676ececc")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "R5")
 					(unit 1)
@@ -13987,7 +13987,7 @@
 			(uuid "b77ade12-c8d5-409c-82ea-e9c77ba5e7d9")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "C2")
 					(unit 1)
@@ -14080,7 +14080,7 @@
 			(uuid "887b1ff8-4734-42a4-a0b4-0f2890bbeb64")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "R1")
 					(unit 1)
@@ -14264,7 +14264,7 @@
 			(uuid "8a7f7e87-9e98-4488-816d-8f7fdf065fb1")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "U1")
 					(unit 1)
@@ -14342,7 +14342,7 @@
 			)
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "H2")
 					(unit 1)
@@ -14420,7 +14420,7 @@
 			(uuid "8ac066a1-b34b-4f8d-a702-eb2b9f7a2458")
 		)
 		(instances
-			(project "modbus-th-sensor"
+			(project "modbus-room-sensor"
 				(path "/0ebab830-f561-40b5-8ce2-2e04f313e8a8"
 					(reference "#PWR023")
 					(unit 1)
