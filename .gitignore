@@ -19,4 +19,9 @@ _autosave-*
 sym-lib-table.cache
 fp-lib-table.cache
 
+# Outputs
 jlcpcb
+release
+reports
+
+
