@@ -12406,39 +12406,6 @@
 			)
 		)
 	)
-	(gr_text "Power"
-		(at 197 77.5 0)
-		(layer "Cmts.User")
-		(uuid "35942096-3618-48c6-8705-11f14c9d97d9")
-		(effects
-			(font
-				(size 1.5 1.5)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "MCU"
-		(at 197 97.5 0)
-		(layer "Cmts.User")
-		(uuid "8b734316-abd5-46cd-8fe8-481fa5fff833")
-		(effects
-			(font
-				(size 1.5 1.5)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "RS-485"
-		(at 197 123.5 0)
-		(layer "Cmts.User")
-		(uuid "99b87b72-fae0-42d5-beb1-f2f3e11b04d0")
-		(effects
-			(font
-				(size 1.5 1.5)
-			)
-			(justify left)
-		)
-	)
 	(point
 		(at 110.5 61.5)
 		(size 1)
