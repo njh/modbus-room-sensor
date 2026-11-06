@@ -25,8 +25,13 @@ jobs:
           apt update
           apt install -y make zip
 
+      # Setup runs as root, but the build runs as the image's 'kicad' user,
+      # whose home directory already has KiCad's library tables
+      - name: Give the workspace to the kicad user
+        run: chown -R kicad:kicad "$GITHUB_WORKSPACE"
+
       - name: Build
-        run: make all
+        run: sudo -u kicad -H make all
 
       - name: Show reports
         if: always()
