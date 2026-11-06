@@ -51,8 +51,10 @@ https://github.com/Optiboot/optiboot
 It is compatible with the Pro Mini in the Arduino IDE and was created using the following command:
 ```
 cd optiboot/optiboot/bootloaders/optiboot
-make atmega328_pro8 BAUD_RATE=57600 BIGBOOT=1 SUPPORT_EEPROM=1
+make atmega328_pro8 BAUD_RATE=57600 BIGBOOT=1 SUPPORT_EEPROM=1 LED_START_FLASHES=3
 ```
+
+The resulting file is called `optiboot_atmega328_pro_8MHz.hex`.
 
 
 [Atmel AVRISP mkII programmer]:  https://www.microchip.com/en-us/development-tool/atavrisp2
