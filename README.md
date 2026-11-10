@@ -15,7 +15,7 @@ It uses a I²C sensor on a separate 19x19mm board, which is compatible with some
 [Pimoroni Breakout Sensor Boards], so it is possible to use alternative sensors with it.
 
 It is open source hardware and software: the KiCad design files, schematics,
-Gerbers, bootloader and documentation are all MIT licensed, so you can build and 
+Gerbers, bootloader and documentation are all MIT licensed, so you can build and
 modify your own.
 
 The board is Arduino compatible: it is designed to be very similar to the 3.3 V
@@ -30,6 +30,7 @@ Features
 - Unit ID from 1 to 15, set with jumpers
 - Jumper to enable the 120 Ω bus terminator
 - 5–24 V DC supply, with a resettable fuse, reverse-polarity and surge protection
+- Power and RS-485 on one 4-way HT396 connector, with the same pinout as M5Stack's [PWR485]
 - Spare I²C socket for adding another sensor
 - Fits the [Camdenboss CBRS01VWH] "Size 1" vented room sensor enclosure
 - Designed in [KiCad], and assembled by JLCPCB
@@ -55,7 +56,7 @@ Specifications
 
 | Item             | Value                                            |
 |------------------|--------------------------------------------------|
-| Supply voltage   | 5–24 V DC                                        |
+| Supply voltage   | 5-24 V DC                                        |
 | Interface        | RS-485, half-duplex                              |
 | Protocol         | Modbus RTU, 9600 baud, 8N1                       |
 | Unit ID          | 1-15, set by jumpers (default 1)                 |
@@ -82,7 +83,7 @@ Hardware
 
 | Ref | Name         | Description |
 |-----|--------------|-------------|
-| J1  | Terminal     | 4-way 3.96 mm HT396 socket: `GND`, `VIN`, `A+`, `B-` |
+| J1  | Terminal     | 4-way 3.96 mm HT396 socket: `GND`, `VIN`, `A+`, `B-`. The same pinout as M5Stack's [PWR485], so it can share a 9–24 V supply and RS-485 bus with M5Stack devices |
 | J2  | FTDI Serial  | 6-pin header for a 3.3 V FTDI cable, for uploading firmware and the debug console |
 | J3  | ICSP         | 2x3 header for writing the bootloader |
 | J4  | Sensor board | 5-way socket for the SHT4x breakout: `GND`, `INT`, `SCL`, `SDA`, `3.3V` |
@@ -92,6 +93,20 @@ Hardware
 
 There are no I²C pull-up resistors on the main board. The SHT4x breakout has
 4.7 kΩ pull-ups, so a sensor on J5 without the breakout needs its own.
+
+
+Installation
+------------
+
+1. Set the unit ID by fitting jumpers on J6. The unit ID is the sum of the
+   values printed next to the fitted jumpers (1, 2, 4 and 8), so fitting 1 and
+   4 gives unit ID 5. With no jumpers fitted, the unit ID is 1. The jumpers are
+   only read at power-up.
+2. Connect the supply to `VIN` and `GND` on J1, and the RS-485 bus to `A+` and `B-`.
+3. If the sensor is at one end of the bus, fit the `Terminate` jumper (JP1).
+   Otherwise, leave it off.
+
+Each device on the bus needs a unique unit ID.
 
 
 Modbus Interface
@@ -124,6 +139,10 @@ modbus -b 9600 -s 1 /dev/ttyUSB0 i@1/h i@2/H
 Programming
 -----------
 
+The firmware is in [firmware/ModbusFirmware](firmware/ModbusFirmware). It needs
+the [ModbusRTUSlave] and [Sensirion I2C SHT4x] libraries, which can be installed
+with the Arduino IDE's Library Manager.
+
 The board is programmed like a 3.3 V Arduino Pro Mini. In the Arduino IDE, choose
 the **Arduino Pro or Pro Mini** board, with the **ATmega328P (3.3V, 8 MHz)**
 processor option, and upload with a 3.3 V FTDI cable on J2.
@@ -131,11 +150,15 @@ processor option, and upload with a 3.3 V FTDI cable on J2.
 A new board needs a bootloader before it can be programmed from the Arduino IDE.
 See [bootloader/README.md](bootloader/README.md) for how to write it using ICSP.
 
+Modbus doesn't work over the FTDI header, because the RS-485 receiver drives the
+same RX line. Instead, at power-up the firmware prints when it was built, the unit
+ID and the SHT4x serial number to the FTDI header, at 9600 baud.
+
 
 ATmega328P pin mapping
 ----------------------
 
-If you want to make your own software / firmware for the broad, here is the 
+If you want to make your own software / firmware for the board, here is the
 pin mapping for use in the Arduino IDE:
 
 | Port | Arduino | Function                                |
@@ -162,11 +185,7 @@ pin mapping for use in the Arduino IDE:
 | PC5  | A5      | I²C clock                               |
 | ADC6 | A6      | _Unused_                                |
 | ADC7 | A7      | _Unused_                                |
-| PC6  |         | Reset ICSP and auto-reset from FTDI     |
-
-Modbus doesn't work over the FTDI header, because the RS-485 receiver
-drives the same RX line. Instead, at power-up the board prints its unit ID, the
-SHT4x serial number and a first reading at 9600 baud.
+| PC6  |         | Reset, from ICSP and FTDI auto-reset    |
 
 
 Making a Board
@@ -216,7 +235,11 @@ See the file [LICENSE.md](LICENSE.md) for details.
 [SHT4x]:                https://sensirion.com/products/catalog/humidity-sensors?series=SHT4x
 [KiCad]:                https://www.kicad.org/
 [modbus-cli]:           https://github.com/favalex/modbus-cli
+[ModbusRTUSlave]:       https://github.com/CMB27/ModbusRTUSlave
+[Sensirion I2C SHT4x]:  https://github.com/Sensirion/arduino-i2c-sht4x
 
 [Arduino Pro Mini]:                https://docs.arduino.cc/retired/boards/arduino-pro-mini/
 [Camdenboss CBRS01VWH]:            https://www.camdenboss.com/ucommerce/cbrs01vwh-room-sensor-enclosure%2c-size-1%2c-vented%2c-white%2c-86x86x25.5mm/c-23/p-23038
 [Pimoroni Breakout Sensor Boards]: https://shop.pimoroni.com/collections/breakouts?category=Sensors
+[HT396]:                           https://www.kefaelectronic.com/HT396R-3-96-Pluggable-terminal-block-pd40161364.html
+[PWR485]:                          https://docs.m5stack.com/en/stamp/Stamp_PWR485
